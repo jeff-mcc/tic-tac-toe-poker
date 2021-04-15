@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<input lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Styles</title>
     <link rel="stylesheet" href="./index.css" />
   </head>
-<body>
+<input>
   <header><h1>Poker Cards</h1></header>
     <main>
-        <section><span>A</span><span>♦</span><span>A</span></section>
-        <section><span>A</span><span>♣</span><span>A</span></section>
-        <section><span>A</span><span>♥</span><span>A</span></section>
-        <section><span>A</span><span>♠</span><span>A</span></section>
+        <section id="diamonds"><span>A</span><span>♦</span><span>A</span></section>
+        <section id="clubs"><span>A</span><span>♣</span><span>A</span></section>
+        <section id="hearts"><span>A</span><span>♥</span><span>A</span></section>
+        <section id="spades"><span>A</span><span>♠</span><span>A</span></section>
     </main>
+    <input id='idGrab' type="text" placeholder="Set ID">
+    <input id='assignStyle' type="text" placeholder="Set Color">
+    <button id="btn" onclick="setCard()">Click Me</button>
+    <button id='rst' onclick="reset()">Reset</button>
 </body>
+<script src="/Part2/index.js"></script>
 </html>
