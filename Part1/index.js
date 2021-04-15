@@ -44,5 +44,6 @@ function reset() {
     let set = document.querySelectorAll('td');
     for (let i = 0; i < set.length; i++) {
         set[i].innerText = '';
+        mt[i] = undefined;
     }
 }
